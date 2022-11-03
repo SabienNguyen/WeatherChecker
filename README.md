@@ -1,2 +1,2 @@
 # WeatherChecker
-Small app that checks the weather
+> Small app that checks the weather
