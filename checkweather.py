@@ -16,7 +16,7 @@ pressure = data['main']['pressure']
 
 if data['cod'] != '404':
     Notification(title = city+', '+country, 
-                 description = f'{temperature}F {weather}\n Humidity: {humidity} \n Pressure: {pressure}',
+                 description = f'{temperature}F {weather}\nHumidity: {humidity}%\nPressure: {pressure} hPa',
                  duration = 5).send()
 else:
     print("City not found")
